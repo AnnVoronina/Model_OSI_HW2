@@ -44,7 +44,8 @@ public class Main {
 
             while (true) {
                 outString = in.readLine();
-                if (outString.equals("end")){
+                if (outString.contains("Welcome to the")){
+                    System.out.println(outString);
                     break;
                 }
                 System.out.println(outString);
